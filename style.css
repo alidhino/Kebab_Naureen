@@ -146,6 +146,12 @@ p {
 .product button:hover {
     background-color: #2980b9;
 }
+.product-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+    object-fit: cover;
+    margin-right: 30px;
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     .navbar {
